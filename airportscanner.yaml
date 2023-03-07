@@ -1,0 +1,29 @@
+# Example usage: python train.py --data airportscanner.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── airportscanner ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/airportscanner  # dataset root dir
+train: train.txt  # train images (relative to 'path') TBD
+val: val.txt  # val images (relative to 'path') TBD
+test: test.txt  # test images (relative to 'path') TBD
+
+# Classes
+names:
+  0: RazorBlade
+  1: SafetyPin
+  2: PaperClip
+  3: Pen
+  4: ThinNail
+  5: Screw
+  6: HandGun
+  7: VgaConnector
+  8: Knife
+  9: MultiPurposeKnife
+  10: Key
+  11: Plier
+  12: Shuriken
+  13: Scissor
