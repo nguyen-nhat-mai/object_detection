@@ -1,7 +1,7 @@
 # Example usage: python train.py --data airportscanner.yaml
 # parent
 # ├── yolov5
-# └── datasets
+#   └── datasets
 #     └── airportscanner ← put data here (e.g. datasets/airportscanner/train/labels and datasets/airportscanner/train/images)
 
 train: ../datasets/airportscanner/train  # train images (relative to 'path') # of images TBD
