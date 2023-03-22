@@ -5,7 +5,7 @@
 #     └── airportscanner ← put data here (e.g. datasets/airportscanner/train/labels and datasets/airportscanner/train/images)
 
 train: ./datasets/airportscanner/train  # train images (relative to 'path') # of images TBD
-val: ./datasets/airportscanner/val # val images (relative to 'path') # of images TBD
+val: ./datasets/airportscanner/valid # val images (relative to 'path') # of images TBD
 test: ./datasets/airportscanner/test  # test images (relative to 'path') # of images TBD
 
 # Classes
