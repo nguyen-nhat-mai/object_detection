@@ -21,7 +21,10 @@ We have annotated 14 types of objects from the images used in this project. The 
 This project used 900 images from the GRIMA database, 545 of which were used for training, 259 for validation and 96 for training. We enriched the train set using various types of augmentations.
 
 ## Object Detector:
-A pre-trained YOLOv5 object detector trained on the Microsoft Common Objects in Context (MS COCO) dataset was used. The model was finetuned on the 900 images from the GRIMA database.
+A pre-trained YOLOv5m6 object detector from ![Ultralytics](https://github.com/ultralytics) trained on the Microsoft Common Objects in Context (MS COCO) dataset was used. The model was finetuned on the 900 images from the GRIMA database.
+
+## Training Process Description:
+The head of the model have been trained once on 100 epochs. Then, it has been finetuned by unfreezing all the layers with a smaller learning rate (please check the process guide for details).
 
 ## Results:
 The sample detections obtained from the object detector are shown below.
@@ -29,3 +32,5 @@ The sample detections obtained from the object detector are shown below.
 ![Sample Detections](https://github.com/nguyen-nhat-mai/object_detection/blob/main/Final_result.PNG)
 
 ### Note: please check the process guide [link to be updated] for in depth flow of the project.
+
+
