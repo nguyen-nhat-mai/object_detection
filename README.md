@@ -31,6 +31,4 @@ The sample detections obtained from the object detector are shown below.
 
 ![Sample Detections](https://github.com/nguyen-nhat-mai/object_detection/blob/main/Final_result.PNG)
 
-### Note: please check the process guide [link to be updated] for in depth flow of the project.
-
 
