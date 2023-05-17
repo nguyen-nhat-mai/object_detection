@@ -15,7 +15,7 @@ This project uses images from the GRIMA database.
 ## Object Classes:
 We have annotated 14 types of objects from the images used in this project. The GRIMA database did not contain annotations for most of them. The types of objects used in this project are shown in the image below. The https://www.makesense.ai/ open-source web app was used as a tool for object annotation.
 
-![Object Classes](https://github.com/nguyen-nhat-mai/object_detection/blob/main/labels.PNG)
+![Object class Labels](https://github.com/nguyen-nhat-mai/object_detection/blob/main/readme_images/labels.PNG)
 
 ## Train-Test Split:
 This project used 900 images from the GRIMA database, 545 of which were used for training, 259 for validation and 96 for training. We enriched the train set using various types of augmentations.
@@ -29,6 +29,6 @@ The head of the model have been trained once on 100 epochs. Then, it has been fi
 ## Results:
 The sample detections obtained from the object detector are shown below.
 
-![Sample Detections](https://github.com/nguyen-nhat-mai/object_detection/blob/main/Final_result.PNG)
+![Sample Detections](https://github.com/nguyen-nhat-mai/object_detection/blob/main/readme_images/Final_result.PNG)
 
 
